@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Naruto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/n"
+            android:layout_above="@+id/k"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:elevation="10dp" />
+
+        <Button
+            android:text="Sasuke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s"
+            android:layout_above="@+id/k"
+            android:layout_toRightOf="@+id/i"
+            android:layout_toEndOf="@+id/i"
+            android:elevation="10dp" />
+
+        <Button
+            android:text="Kakashi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/k"
+            android:layout_below="@+id/i"
+            android:layout_alignLeft="@+id/i"
+            android:layout_alignStart="@+id/i"
+            android:elevation="10dp" />
+
+        <Button
+            android:text="Itachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:id="@+id/i"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:elevation="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
